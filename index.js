@@ -20,3 +20,8 @@ function appendKitten(name) {
   var appendedKitten = kittens.push(name);
   return appendedKitten;
 }
+
+function destructivelyRemoveFirstKitten() {
+  kittens.splice(0, 1);
+  return kittens;
+}
