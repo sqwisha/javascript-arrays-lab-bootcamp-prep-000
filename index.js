@@ -25,3 +25,8 @@ function destructivelyRemoveFirstKitten() {
   kittens.splice(0, 1);
   return kittens;
 }
+
+function prependKitten(name) {
+  var prependedKitten = name.concat(kittens);
+  return prependedKitten;
+}
