@@ -30,3 +30,8 @@ function prependKitten(name) {
   var prependedKitten = name.concat(kittens);
   return prependedKitten;
 }
+
+function removeLastKitten() {
+  var removedLastKitten = kittens.pop();
+  return removedLastKitten;
+}
