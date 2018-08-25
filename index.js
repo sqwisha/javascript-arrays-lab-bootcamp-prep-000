@@ -8,7 +8,7 @@ function destructivelyAppendKitten(name) {
 
 function destructivelyPrependKitten(name) {
   kittens.splice(0, 0, name);
-  return kitens;
+  return kittens;
 }
 
 function destructivelyRemoveLastKitten() {
