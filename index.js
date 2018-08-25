@@ -10,3 +10,8 @@ function destructivelyPrependKitten(name) {
   kittens.splice(0, 0, name);
   return kitens;
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+}
